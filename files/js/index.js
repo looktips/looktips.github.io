@@ -1,0 +1,1 @@
+document.getElementById("main").innerHTML = '<div class="main"><p>main</p><img src="files/asset/Landscapes-flat-color-icons-beach.png" alt=""></div>';
