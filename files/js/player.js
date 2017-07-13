@@ -63,7 +63,7 @@ function play(vid, id) {
 		for (i; i < vRange && i < vlist.length; i++) {
 			var vtitle = vlist[i]['title'];
 			var vid = vlist[i]['vid'];
-			var item = '<li><a href = "_hmt.push(["_trackPageview", "player.html?vid=vidstr&title=titlevar&cid=cidstr&channel=channelstr"]);play(vidstr,idstr);"><span>titlevar</span></a></li>'.replace(/titlevar/g, vtitle).replace(/vidstr/g, "'" + vid + "'").replace(/idstr/g, "'" + i + "'").replace(/cidstr/g, cid).replace(/channelstr/g, channel);
+			var item = '<li onclick = "_hmt.push(["_trackPageview", "player.html?vid=vidstr&title=titlevar&cid=cidstr&channel=channelstr"]);play(vidstr,idstr);"><a><span>titlevar</span></a></li>'.replace(/titlevar/g, vtitle).replace(/vidstr/g, "'" + vid + "'").replace(/idstr/g, "'" + i + "'").replace(/cidstr/g, cid).replace(/channelstr/g, channel);
 			if (i == id) {
 				item = item.replace('<li>', '<li class="active">');
 			}
@@ -96,7 +96,7 @@ function play(vid, id) {
 		for (i; i < vRange && i < vlist.length; i++) {
 			var vtitle = vlist[i]['title'];
 			var vid = vlist[i]['vid'];
-			var item = '<li><a href = "_hmt.push(["_trackPageview", "player.html?vid=vidstr&title=titlevar&cid=cidstr&channel=channelstr"]);play(vidstr,idstr);"><img src="http://puui.qpic.cn/qqvideo_ori/0/n0020yrnly7_496_280/0" alt="titlevar"><p>titlevar</p></a></li>'.replace(/titlevar/g, vtitle).replace(/n0020yrnly7_496_280/g, vid + '_496_280').replace(/vidstr/g, "'" + vid + "'").replace(/idstr/g, "'" + i + "'").replace(/cidstr/g, cid).replace(/channelstr/g, channel);
+			var item = '<li onclick = "_hmt.push(["_trackPageview", "player.html?vid=vidstr&title=titlevar&cid=cidstr&channel=channelstr"]);play(vidstr,idstr);"><a><img src="http://puui.qpic.cn/qqvideo_ori/0/n0020yrnly7_496_280/0" alt="titlevar"><p>titlevar</p></a></li>'.replace(/titlevar/g, vtitle).replace(/n0020yrnly7_496_280/g, vid + '_496_280').replace(/vidstr/g, "'" + vid + "'").replace(/idstr/g, "'" + i + "'").replace(/cidstr/g, cid).replace(/channelstr/g, channel);
 			if (i == id) {
 				item = item.replace('<li>', '<li class="active">');
 			}
