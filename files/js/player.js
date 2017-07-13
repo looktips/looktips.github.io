@@ -105,7 +105,7 @@ function play(vid, id) {
 		ul_img = '<ul id="ul_img" class="ul_img">' + vids.join("") + '</ul>';
 		document.getElementById("relative").innerHTML = ul_img;
 	}
-	_hmt.push(['_trackPageview', 'player.html?uv&vid=vidstr&cid=cidstr&channel=channelstr'.replace(/vidstr/g, vid).replace(/cidstr/g, cid).replace(/channelstr/g, channel)]);
+	_hmt.push(['_trackPageview', 'player.html?pv&vid=vidstr&cid=cidstr&channel=channelstr'.replace(/vidstr/g, vid).replace(/cidstr/g, cid).replace(/channelstr/g, channel)]);
 }
 
 var JSONP = document.createElement("script");

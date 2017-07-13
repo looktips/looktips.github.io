@@ -137,5 +137,5 @@ function getpage() {
 			}
 		}
 	}
-	_hmt.push(['_trackPageview', 'channel.html?uv&cid=cidstr&channel=channelstr&page=pagestr'.replace(/cidstr/g, GetQueryString("cid")).replace(/channelstr/g, GetQueryString("channel")).replace(/pagestr/g, page)]);
+	_hmt.push(['_trackPageview', 'channel.html?pv&cid=cidstr&channel=channelstr&page=pagestr'.replace(/cidstr/g, GetQueryString("cid")).replace(/channelstr/g, GetQueryString("channel")).replace(/pagestr/g, page)]);
 }
