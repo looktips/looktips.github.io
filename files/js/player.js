@@ -65,7 +65,7 @@ function play(vid, id) {
 			var vid = vlist[i]['vid'];
 			var item = '<li onclick = "play(vidstr,idstr);"><a><span>titlevar</span></a></li>'.replace(/titlevar/g, vtitle).replace(/vidstr/g, "'" + vid + "'").replace(/idstr/g, "'" + i + "'");
 			if (i == id) {
-				item = item.replace('<li>', '<li class="active">');
+				item = item.replace('<li', '<li class="active"');
 			}
 			vids.push(item);
 		}
