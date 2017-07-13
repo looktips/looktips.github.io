@@ -1,13 +1,1 @@
-.main {
-	background-color:darkslategray;
-	color: coral;
-	width: 25%;
-	text-align: center;
-}
-
-.main2 {
-	background-color: antiquewhite;
-	color: coral;
-	width: 25%;
-	text-align: center;
-}
+.logo {background-color: #fff;color: #FF6537;text-align: center;padding-left: 30px;}.logo_1 {font-size: 30px;}#header {background: #fff;width: 100%;overflow: hidden;margin-bottom: 2px;}.header_nav {text-align: center;}.nav_btn {height: 42px;line-height: 42px;text-align: center;vertical-align: middle;font-size: 16px;letter-spacing: normal;word-spacing: normal;display: inline-block;width: 23%;color: #666666;}.nav_btn.active {color: #FF6537;border-bottom: 2px solid #FF6537;}/*listbox*/.listbox {background: #fff;width: 100%;overflow: hidden;margin-top: 10px;/*text-align: center;*/}.listbox_header {padding: 12px;}.p_header {/*float: left;*/display: inline-block;    width: 45%;    font-size: 16px;    color: #FF6537;    border-left: 2px solid #FF6537;    padding-left: 10px;    line-height: 16px;}.p_more {display: inline-block;width: 47%;/*padding-right: 10px;*/    color: #999;    font-size: 13px;line-height: 16px;    text-align: right;}.col {display: table-cell;    vertical-align: middle;}.col_info {width: 100%}.col_r {padding-left: 10px;    color: #999999;}.col_r p {width: 24px;    margin: 0 15px;    font-size: 13px;    text-align: center;}.ul_list {margin:0 10px;}.ul_list li {padding: 8px 5px;position: relative;display: -webkit-box;display: -webkit-flex;display: flex;-webkit-box-align: center;-webkit-align-items: center;align-items: center;border-top: 1px solid #f4f4f4;left: 10px;margin-bottom: 5px;}.ul_btn {text-align: center;}.ul_btn li {height: 42px;line-height: 42px;text-align: center;vertical-align: middle;font-size: 16px;letter-spacing: normal;word-spacing: normal;display: inline-block;width: 45%;color: #666666;border: 1px dashed #f4f4f4;margin-bottom: 5px}.ul_img {text-align: center;margin:0 10px;}.ul_img li {display: inline-block;width: 45%;color: #666666;padding: 5px 5px 5px 5px;margin-bottom: 5px}.ul_img img {width: 100%;border-radius: 5px;}.ul_img p {    margin: 10px 0 5px;    word-break: keep-all;    white-space: nowrap;    overflow: hidden;    text-overflow: ellipsis;}
