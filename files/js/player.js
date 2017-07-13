@@ -98,14 +98,14 @@ function play(vid, id) {
 			var vid = vlist[i]['vid'];
 			var item = '<li onclick = "play(vidstr,idstr);"><a><img src="http://puui.qpic.cn/qqvideo_ori/0/n0020yrnly7_496_280/0" alt="titlevar"><p>titlevar</p></a></li>'.replace(/titlevar/g, vtitle).replace(/n0020yrnly7_496_280/g, vid + '_496_280').replace(/vidstr/g, "'" + vid + "'").replace(/idstr/g, "'" + i + "'");
 			if (i == id) {
-				item = item.replace('<li>', '<li class="active">');
+				item = item.replace('<li', '<li class="active"');
 			}
 			vids.push(item);
 		}
 		ul_img = '<ul id="ul_img" class="ul_img">' + vids.join("") + '</ul>';
 		document.getElementById("relative").innerHTML = ul_img;
 	}
-	_hmt.push(['_trackPageview', 'player.html?vid=vidstr&cid=cidstr&channel=channelstr'.replace(/vidstr/g, vid).replace(/cidstr/g, cid).replace(/channelstr/g, channel)]);
+	_hmt.push(['_trackPageview', 'player.html?uv&vid=vidstr&cid=cidstr&channel=channelstr'.replace(/vidstr/g, vid).replace(/cidstr/g, cid).replace(/channelstr/g, channel)]);
 }
 
 var JSONP = document.createElement("script");
