@@ -1,12 +1,6 @@
 jsonpChannel({
 	"channel": [
 		{
-			"title": "经典儿歌",
-			"cid": "rtt000001wm1n57"
-		}, {
-			"title": "低幼旋律曲",
-			"cid": "ft7000201kih7rv"
-		}, {
 			"title": "好习惯培养",
 			"cid": "7a0000101x5jon3"
 		}, {
@@ -27,6 +21,12 @@ jsonpChannel({
 		}, {
 			"title": "奇妙汉字",
 			"cid": "fpz0001013r1v6d"
+		},{
+			"title": "经典儿歌",
+			"cid": "rtt000001wm1n57"
+		}, {
+			"title": "低幼旋律曲",
+			"cid": "ft7000201kih7rv"
 		}, {
 			"title": "英文儿歌",
 			"cid": "xaq000301volp67"
